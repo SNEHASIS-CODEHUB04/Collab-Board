@@ -29,7 +29,7 @@ connectToDB();
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-      origin: ["http://localhost:3000"], //"https://whiteboard-tutorial-eight.vercel.app"
+      origin: ["https://collab-board-frontendx.onrender.com"], 
       methods: ["GET", "POST"],
     },
   });
