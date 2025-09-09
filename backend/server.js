@@ -29,7 +29,7 @@ connectToDB();
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-      origin: ["https://collab-board-frontendx.onrender.com"], 
+      origin: ["https://collab-board-frontenda.onrender.com"], 
       methods: ["GET", "POST"],
     },
   });
